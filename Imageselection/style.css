@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    display: flex;
+    align-items: center;;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #281a02;
+}
+
+input{
+    display: none;
+}
+
+#btn{
+    padding: 25px 40px;
+    background-color: rgb(114, 84, 8);
+    font-weight: 600;
+    color: whitesmoke;
+    border-radius: 50px;
+    font-size: larger;
+    box-shadow: 10px 10px 5px rgba(6, 2, 2, 0.2);
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(224, 119, 6);
+    transition: all 0.2s ease-in-out;
+}
